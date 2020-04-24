@@ -8,6 +8,7 @@ import 'package:ludo_twist/greentile.dart';
 import 'package:ludo_twist/lightbluetile.dart';
 import 'package:ludo_twist/pinkaccenttile.dart';
 import 'NormalTile.dart';
+import 'PinkDiceTile.dart';
 import 'cyanAccenttile.dart';
 
 class PlayNow extends StatefulWidget{
@@ -18,10 +19,14 @@ class PlayNow extends StatefulWidget{
 }
 
 class _PlayNowState extends State<PlayNow> {
+
+  int dice =2;
+
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
         home: Scaffold(
           appBar: AppBar(title: Text("LUDO TWIST"),),
           body: Center(
@@ -47,7 +52,17 @@ class _PlayNowState extends State<PlayNow> {
                               width: 13.3,
                               child: Column(
                                 children: <Widget>[
-                                  NormalTile(),
+                                  (dice == 2)? Container(
+                                    width: 14.0,
+                                    height: 14.0,
+                                    decoration: BoxDecoration(
+                                      color: Colors.white,
+                                      border: Border.all(color: Colors.brown), //index 0
+                                    ),
+                                    child: Icon(
+                                      Icons.location_on,size: 13.0,color: Colors.pinkAccent,
+                                    ),
+                                  ): PinkAccentTile(),
                                   NormalTile(),
                                   NormalTile(),
                                   NormalTile(),
@@ -85,7 +100,17 @@ class _PlayNowState extends State<PlayNow> {
                               child: Column(
                                 children: <Widget>[
                                   NormalTile(),
-                                  GreenTile(),
+                                  (dice == 2)? Container(
+                                    width: 14.0,
+                                    height: 14.0,
+                                    decoration: BoxDecoration(
+                                      color: Colors.green,
+                                      border: Border.all(color: Colors.brown), //index 0
+                                    ),
+                                    child: Icon(
+                                      Icons.location_on,size: 13.0,color: Colors.white,
+                                    ),
+                                  ): PinkAccentTile(),
                                   NormalTile(),
                                   NormalTile(),
                                   NormalTile(),
@@ -132,7 +157,17 @@ class _PlayNowState extends State<PlayNow> {
                                 child: Row(
                                   children: <Widget>[
                                    NormalTile(),
-                                    PinkAccentTile(),
+                                  (dice == 2)? Container(
+                                    width: 14.0,
+                                    height: 14.0,
+                                    decoration: BoxDecoration(
+                                      color: Colors.pinkAccent,
+                                      border: Border.all(color: Colors.brown), //index 0
+                                    ),
+                                    child: Icon(
+                                      Icons.location_on,size: 13.0,color: Colors.white,
+                                    ),
+                                  ): PinkAccentTile(),
                                     NormalTile(),
                                     NormalTile(),
                                     NormalTile(),
@@ -177,7 +212,17 @@ class _PlayNowState extends State<PlayNow> {
                                     NormalTile(),
                                     NormalTile(),
                                     NormalTile(),
-                                    NormalTile(),
+                                    (dice == 2)? Container(
+                                      width: 14.0,
+                                      height: 14.0,
+                                      decoration: BoxDecoration(
+                                        color: Colors.white,
+                                        border: Border.all(color: Colors.brown), //index 0
+                                      ),
+                                      child: Icon(
+                                        Icons.location_on,size: 13.0,color: Colors.green,
+                                      ),
+                                    ): GreenTile(),
                                     NormalTile(),
                                   ],
                                 ),
@@ -290,7 +335,17 @@ class _PlayNowState extends State<PlayNow> {
                                     NormalTile(),
                                     NormalTile(),
                                     NormalTile(),
-                                    CyanAccentTile(),
+                                    (dice == 2)? Container(
+                                      width: 14.0,
+                                      height: 14.0,
+                                      decoration: BoxDecoration(
+                                        color: Colors.orange,
+                                        border: Border.all(color: Colors.brown), //index 0
+                                      ),
+                                      child: Icon(
+                                        Icons.location_on,size: 13.0,color: Colors.white,
+                                      ),
+                                    ): PinkAccentTile(),
                                     NormalTile(),
                                   ],
                                 ),
@@ -335,7 +390,17 @@ class _PlayNowState extends State<PlayNow> {
                                       NormalTile(),
                                       NormalTile(),
                                       NormalTile(),
-                                      LightblueTile(),
+                                      (dice == 2)? Container(
+                                        width: 14.0,
+                                        height: 14.0,
+                                        decoration: BoxDecoration(
+                                          color: Colors.lightBlue,
+                                          border: Border.all(color: Colors.brown), //index 0
+                                        ),
+                                        child: Icon(
+                                          Icons.location_on,size: 13.0,color: Colors.white,
+                                        ),
+                                      ): PinkAccentTile(),
                                       NormalTile(),
                                     ],
                                   ),

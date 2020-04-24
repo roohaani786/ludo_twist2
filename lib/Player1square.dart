@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:icon_shadow/icon_shadow.dart';
+//import 'package:icon_shadow/icon_shadow.dart';
 
 class Player1Square extends StatelessWidget{
   @override
