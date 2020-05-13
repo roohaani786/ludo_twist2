@@ -17,12 +17,9 @@ samples, guidance on mobile development, and a full API reference.
 
 <ul>
 
-<img src="WhatsApp Image 2020-05-13 at 1.17.11 PM.jpeg" width="220" height="320">
-<img src="WhatsApp Image 2020-05-13 at 1.17.11 PM(1).jpeg" width="220" height="320">
-<img src="WhatsApp Image 2020-05-13 at 1.17.11 PM(2).jpeg" width="220" height="320">
-<img src="WhatsApp Image 2020-05-13 at 1.17.11 PM(3).jpeg" width="220" height="320">
-<img src="WhatsApp Image 2020-05-13 at 1.17.11 PM(4).jpeg" width="220" height="320">
-<img src="WhatsApp Image 2020-05-13 at 1.17.11 PM(5).jpeg" width="220" height="320">
-<img src="WhatsApp Image 2020-05-13 at 1.17.11 PM(6).jpeg" width="220" height="320">
+<img src="WhatsApp Image 2020-05-13 at 2.55.25 PM(2).jpeg" width="220" height="320">
+<img src="WhatsApp Image 2020-05-13 at 2.55.25 PM.jpeg" width="220" height="320">
+<img src="WhatsApp Image 2020-05-13 at 2.55.25 PM(1).jpeg" width="220" height="320">
+<img src="WhatsApp Image 2020-05-13 at 2.55.25 PM(3).jpeg" width="220" height="320">
 
 </ul>
